@@ -18,7 +18,7 @@ You approve or redirect at every gate. The agent never auto-advances.
 ## Installation
 
 ```
-/plugin add marketplace linear-dev-workflow github:uzairabbas/linear-dev-workflow
+/plugin add marketplace linear-dev-workflow github:uxairishere/linear-dev-workflow
 /plugin install linear-dev-workflow@linear-dev-workflow
 ```
 
