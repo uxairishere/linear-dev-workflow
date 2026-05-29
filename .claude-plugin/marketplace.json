@@ -11,8 +11,10 @@
       "description": "End-to-end Linear ticket agent. Given a Linear ticket URL, reads the ticket, recommends a skill, plans, implements, reviews, and raises a PR. Each stage has an explicit human approval gate.",
       "version": "1.0.0",
       "source": {
-        "source": "git",
-        "url": "https://github.com/uxairishere/linear-dev-workflow.git"
+        "source": "git-subdir",
+        "url": "https://github.com/uxairishere/linear-dev-workflow.git",
+        "path": ".",
+        "ref": "main"
       },
       "author": {
         "name": "uxairishere",
