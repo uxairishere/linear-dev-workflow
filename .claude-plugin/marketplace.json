@@ -1,0 +1,26 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "linear-dev-workflow",
+  "description": "End-to-end Linear ticket to PR workflow plugin for Claude Code",
+  "owner": {
+    "name": "uxairishere",
+    "email": "uxair.abs@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "linear-dev-workflow",
+      "description": "End-to-end Linear ticket agent. Given a Linear ticket URL, reads the ticket, recommends a skill, plans, implements, reviews, and raises a PR. Each stage has an explicit human approval gate.",
+      "author": {
+        "name": "uxairishere"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/uxairishere/linear-dev-workflow.git",
+        "path": "plugins/linear-dev-workflow",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/uxairishere/linear-dev-workflow"
+    }
+  ]
+}
