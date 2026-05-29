@@ -26,10 +26,15 @@ You approve or redirect at every gate. The agent never auto-advances.
 
 ## Installation
 
-Register the repo as a marketplace, then install the plugin:
+**Step 1 — Register this repo as a marketplace** (one-time, tells Claude Code where to find the plugin):
 
 ```
 /plugin add marketplace linear-dev-workflow github:uxairishere/linear-dev-workflow
+```
+
+**Step 2 — Install the plugin from that marketplace:**
+
+```
 /plugin install linear-dev-workflow@linear-dev-workflow
 ```
 
