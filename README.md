@@ -15,7 +15,18 @@ Given a Linear ticket URL, the agent:
 
 You approve or redirect at every gate. The agent never auto-advances.
 
+## Requirements
+
+1. **Linear MCP** — configure the [Linear MCP server](https://linear.app/settings/api) with access to your workspace
+2. **Superpowers plugin** — install via:
+   ```
+   /plugin install superpowers@claude-plugins-official
+   ```
+3. **GitHub CLI** — authenticated (`gh auth login`)
+
 ## Installation
+
+Register the repo as a marketplace, then install the plugin:
 
 ```
 /plugin add marketplace linear-dev-workflow github:uxairishere/linear-dev-workflow
@@ -27,9 +38,3 @@ You approve or redirect at every gate. The agent never auto-advances.
 ```
 /linear-ticket https://linear.app/team/issue/TEAM-123/ticket-title
 ```
-
-## Requirements
-
-- [Linear MCP](https://github.com/anthropics/claude-plugins-official) configured with access to your workspace
-- `gh` CLI authenticated (`gh auth login`)
-- [Superpowers plugin](https://github.com/anthropics/claude-plugins-official) installed
