@@ -1,0 +1,19 @@
+{
+  "name": "linear-dev-workflow",
+  "description": "End-to-end Linear ticket agent — reads the ticket, plans, implements, reviews, and raises a PR with human approval gates at each stage.",
+  "version": "1.0.0",
+  "author": {
+    "name": "uxairishere",
+    "email": "uxair.abs@gmail.com"
+  },
+  "homepage": "https://github.com/uxairishere/linear-dev-workflow",
+  "repository": "https://github.com/uxairishere/linear-dev-workflow",
+  "license": "MIT",
+  "keywords": [
+    "linear",
+    "workflow",
+    "tickets",
+    "pr",
+    "productivity"
+  ]
+}
