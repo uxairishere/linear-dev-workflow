@@ -13,7 +13,7 @@
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/uxairishere/linear-dev-workflow.git",
-        "path": ".",
+        "path": "plugins/linear-dev-workflow",
         "ref": "main"
       },
       "author": {
